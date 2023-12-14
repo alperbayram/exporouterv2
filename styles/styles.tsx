@@ -34,13 +34,6 @@ export const styles = StyleSheet.create({
     height: 1,
     width: "80%",
   },
-  homeScreenFilename: {
-    marginVertical: 7,
-  },
-  codeHighlightContainer: {
-    borderRadius: 3,
-    paddingHorizontal: 4,
-  },
   image: {
     width: 100,
     height: 100,

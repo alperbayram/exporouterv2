@@ -8,7 +8,7 @@ export default function Page() {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>users</Text>
-      <View style={[styles.codeHighlightContainer, styles.homeScreenFilename]}>
+      <View>
         <Text style={styles.subtitle}>app/users.tsx</Text>
         <Text style={styles.subtitle}>Users</Text>
         <View style={styles.screencontainer}>

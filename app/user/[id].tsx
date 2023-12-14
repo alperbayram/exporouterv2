@@ -8,17 +8,15 @@ export default function Page() {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>user</Text>
-      <View style={styles.separator} />
       <Image source={{ uri: local.image }} style={styles.image} />
-      <View style={[styles.codeHighlightContainer, styles.homeScreenFilename]}>
+      <View>
         <Text style={styles.subtitle}>id: {local.id}</Text>
         <Text style={styles.subtitle}>Name: {local.name}</Text>
         <Text style={styles.subtitle}>Company: {local.company}</Text>
         <Text style={styles.subtitle}>pathname: app{pathname}</Text>
       </View>
-      <View style={styles.separator} />
       <TouchableOpacity onPress={router.back}>
-        <Text style={styles.linktitle}>{"< "}back</Text>
+        <Text style={styles.linktitle}>{"< "}Back</Text>
       </TouchableOpacity>
     </View>
   );

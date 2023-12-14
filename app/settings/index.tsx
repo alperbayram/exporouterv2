@@ -6,7 +6,7 @@ export default function Page() {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>settings</Text>
-      <View style={[styles.codeHighlightContainer, styles.homeScreenFilename]}>
+      <View>
         <Text style={styles.subtitle}>app/settings/index.tsx</Text>
       </View>
       <Link href="/">
