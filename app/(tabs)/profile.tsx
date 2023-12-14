@@ -1,16 +1,15 @@
 import { View, Text } from "react-native";
-import { Link } from "expo-router";
 import { styles } from "../../styles/styles";
+import { Link } from "expo-router";
 
 export default function Page() {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>settings</Text>
       <View>
-        <Text style={styles.subtitle}>app/settings/index.tsx</Text>
+        <Text style={styles.subtitle}>app/(tabs)/profile.tsx</Text>
       </View>
       <Link href="/">
-        <Text style={styles.linktitle}>index</Text>
+        <Text style={styles.linktitle}>logout</Text>
       </Link>
     </View>
   );

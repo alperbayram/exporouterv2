@@ -5,7 +5,7 @@ export const styles = StyleSheet.create({
     marginVertical: 30,
     flex: 1,
     alignItems: "center",
-    justifyContent: "space-between",
+    justifyContent: "center",
   },
   screencontainer: {
     display: "flex",
