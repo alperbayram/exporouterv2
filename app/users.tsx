@@ -23,7 +23,9 @@ export default function Page() {
               },
             }}
           >
-            <Image source={{ uri: avatar1 }} style={styles.image} />
+            <View>
+              <Image source={{ uri: avatar1 }} style={styles.image} />
+            </View>
           </Link>
           <Link
             href={{
@@ -36,7 +38,9 @@ export default function Page() {
               },
             }}
           >
-            <Image source={{ uri: avatar2 }} style={styles.image} />
+            <View>
+              <Image source={{ uri: avatar2 }} style={styles.image} />
+            </View>
           </Link>
         </View>
       </View>
