@@ -1,5 +1,5 @@
 import { Text, View, Image } from "react-native";
-import { Link, Stack } from "expo-router";
+import { Link } from "expo-router";
 import { styles } from "../../../styles/styles";
 
 export default function Page() {
@@ -8,7 +8,7 @@ export default function Page() {
   return (
     <View style={styles.container}>
       <View>
-        <Text style={styles.subtitle}>app/(tabs)/user/index.tsx</Text>
+        <Text style={styles.subtitle}>app/(tabs)/user/users.tsx</Text>
         <View style={styles.screencontainer}>
           <Link
             href={{
