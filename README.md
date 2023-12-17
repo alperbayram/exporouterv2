@@ -20,7 +20,7 @@
 
 ## 🚀 How to use
 
-- Run `npm expo install`
+- Run `npm install`
 - Run `npm run start`
 - or
 - Run `npm run web`
